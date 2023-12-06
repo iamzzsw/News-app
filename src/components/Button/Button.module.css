@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 40px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.primary {
+  background: #6c1bdb;
+  color: #fff;
+}
+
+.secondary {
+  background: var(--border-color);
+  color: var(--text-primary);
+}

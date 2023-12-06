@@ -1,0 +1,16 @@
+.filterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 64px 0;
+    padding-left: 40px;
+
+  }
+  .filterButton {
+    margin-bottom: 20px;
+
+  }
+
+  .filterButton:not(:last-child) {
+    margin-right: 16px;
+    
+  }

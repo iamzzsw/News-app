@@ -1,0 +1,65 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 70px;
+  }
+
+  .titleLink {
+    text-decoration: none;
+
+  }
+
+  .sort {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+ .search {
+    width: 542px;
+    height: 56px;
+    padding-left: 20px;
+  }
+
+
+ 
+ 
+  .button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .searchBlockHeader {
+    display: flex;
+    position: relative;
+  }
+
+
+  .buttonSearch {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+ 
+  .searchBlockHeader {
+    width: 542px;
+    margin: auto;
+  }
+
+  
+
+  
+
+
+  
+  
