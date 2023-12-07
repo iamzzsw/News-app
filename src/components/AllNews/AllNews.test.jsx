@@ -3,7 +3,7 @@ import AllNews from "./AllNews";
 
 jest.mock("node-fetch", () => require("fetch-mock-jest").sandbox());
 
-describe("AllNews", () => {
+describe("AllNews component", () => {
   it("renders without crashing", () => {
     render(<AllNews sortValue={null} searchValue="" />);
   });
